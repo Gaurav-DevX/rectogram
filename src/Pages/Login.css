@@ -1,0 +1,71 @@
+.login-container {
+    margin-top: 2rem;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.input-bg {
+    background-color: #f3f3f3;
+    color: #dbd5d5;
+    font-size: 0.9rem;
+    height: 2.9rem;
+}
+
+.custom-btn {
+    padding: 0.6rem;
+    border-radius: 4px;
+}
+
+.custom-btn-blue {
+    border: 2px solid #b3e0ff;
+    background-color: #b3e0ff;
+    color: #fff;
+}
+
+.custom-btn-white {
+    border: 2px solid #dee5e9;
+    background-color: #fff;
+    color: #000;
+}
+
+.custom-btn-white:hover{
+    background: none;
+    border: 2px solid #dee5e9;
+}
+
+.socialDesktop {
+    display: block;
+}
+
+.socialMobile {
+    display: none;
+}
+
+@media only screen and (max-width: 750px){
+    .socialDesktop {
+        display: none;
+    }
+    
+    .socialMobile {
+        display: block;
+    }
+
+    .login-container {
+        margin-top: 0;
+        padding-top: 2rem;
+        background: #fff !important;
+    }
+
+    .card-body {
+        padding: 0 1.4rem !important;
+    }
+
+    .card {
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    input {
+        background-color: #eeeeee !important;
+    }
+    
+}

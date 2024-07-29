@@ -1,0 +1,96 @@
+.dp-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid #111;
+}
+
+a {
+    text-decoration: none;
+}
+
+.counter-wrapper {
+    border-right: 2px solid #dee5e9;
+}
+
+.container {
+    width: 75vw !important
+}
+
+.profile-btn {
+    padding: 0.6rem 1.5rem;
+    border-radius: 4px;
+}
+
+.post-btn {
+    padding: 0.6rem 2.5rem;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.profile-btn-white {
+    border: 2px solid #dee5e9;
+    background-color: #fff;
+    color: #000;
+}
+
+.post-btn-pink {
+    border: none;
+    background-color: #e34373;
+    color: #fff;
+}
+
+.profile-btn-white:hover{
+    background: none;
+    border: 2px solid #dee5e9;
+}
+
+.upload-image-wrap {
+    width: 350px;
+    height: 350px;
+    border: 2px dotted gray;
+    border-radius: 15px;
+}
+
+.dropZoneContainer {
+    position: relative;
+}
+
+.dropZoneOverlay, .fileUpload {
+    height: 350px;
+    width: 350px;
+}
+
+.dropZoneOverlay {
+    border: dotted 1px rgba(128, 128, 128, 0);
+    border-radius: 15px;
+    text-transform: capitalize;
+    color: #7066fb;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 140px; 
+}
+
+.fa-cloud-arrow-up {
+    font-size: 2.5rem;
+    color: gray;
+}
+
+.fileUpload {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        width: 100vw !important;
+    }
+
+    .card-wrap {
+        padding: 3px;
+    }
+}
